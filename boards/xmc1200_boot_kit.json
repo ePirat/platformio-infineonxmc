@@ -1,0 +1,29 @@
+{
+  "build": {
+    "board_variant": "XMC1200_Boot_Kit",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DXMC1200_Boot_Kit -DARDUINO=1200 -DXMC1200_T038x0200",
+    "f_cpu": "32000000L",
+    "mcu": "XMC1200",
+    "v": "0200",
+    "variant": "XMC1200"
+  },
+  "debug": {
+    "jlink_device": "XMC1200-0200",
+    "onboard_tools": [
+      "jlink"
+    ],
+    "svd_path": "XMC1200.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "XMC1200 Boot Kit",
+  "upload": {
+    "maximum_ram_size": 16380,
+    "maximum_size": 204800,
+    "protocol": "jlink"
+  },
+  "url": "https://www.infineon.com",
+  "vendor": "Infineon"
+}
